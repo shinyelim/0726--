@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.basic-image img{
+  width: 250px;
+}
+.inp-list input[type=checkbox]{
+  display: none;
+}
+.inp-list input[type=checkbox]+label{
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  color: #333;
+}
+.inp-list input[type=checkbox]+label::before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background: url(./images/pc_chcek_off_s_20.png);
+
+}
+.inp-two-list input[type=checkbox]{
+  display: none;
+}
+.inp-two-list input[type=checkbox]+label{
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  color: #333;
+}
+.inp-two-list input[type=checkbox]+label::before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background: url(./images/pc_chcek_off_s_20.png);
+
+}
