@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+li{
+  list-style: none;
+}
+.global-header{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 768px;
+  
+}
+.logo img{
+  width: 240px;
+
+}
+.lang{
+  position: absolute;
+  right: 10px;
+
+
+}
+.join-from{
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+
+section label{
+  display: flex;
+
+}
+label input[type='checkbox']{
+  display: block;
+}
+.checkbox-img{
+  margin-right:8px ;
+
+}
+.label p{
+  width: calc(100% - 32px);
+  font-size: 18px;
+  font-weight: 900;
+}
+.agree{
+  margin-top: 40px;
+
+}
+.agree label span{
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 8px;
+  
+  
+}
+.agree label p{
+  display: flex;
+  align-items: center;
+}
+.agree .checkbox-img{
+  width: 20px;
+  height: 20px;
+  background-image: url(./images/pc_chcek_off_s_20.png);
+}
+/*span(필수)*/
+.text-primary{
+  color: #08a600;
+
+}
+/*span(선택)*/
+.text-secondary{
+  color: #08a600;
+}
+.agree .checkbox-img.checked{
+  background-image: url(../0727/images/pc_chcek_on_s_20.png);
+}
+.total .checkbox-img{
+width: 24px;
+height: 24px;
+background: url(../0727/images/pc_chcek_off_s_20.png)no-repeat;
+
+
+}
+.total .checkbox-img.checked{
+  background-image: url(./images/pc_chcek_on_s_20.png);
+}
+/*label 스타일링*/
+
+.terms{
+height: 130px;
+overflow-y: scroll;
+margin-top: 10px;
+padding: 16px;
+border-radius: 7px;
+background-color: #fff;
+color: #666;
+border: 1px solid #dadadd;
+}
+.req-alert{
+  visibility: hidden;
+  color: red;
+  font-size: 15px;
+  padding: 20px 0;
+
+}
+.btn{
+  width: calc((100% - 8px)/2);
+  height: 55px;
+  background-color: #08a600;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+.group-join{
+  margin-top: 12px;
+
+}
+.group-join a{
+  transition: color 300ms ease-in-out;
+}
+
+.group-join a:hover{
+  color: #08a600;
+}
